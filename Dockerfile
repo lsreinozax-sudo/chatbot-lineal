@@ -16,8 +16,6 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
     fastapi \
     uvicorn[standard] \
-    chromadb \
-    sentence-transformers \
     python-multipart
 
 COPY . .

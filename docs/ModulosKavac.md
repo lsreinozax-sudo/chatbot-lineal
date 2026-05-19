@@ -1,1 +1,0 @@
-Los módulos son componentes especializados que integran el sistema de gestión organizacional, diseñado para la administración pública venezolana 

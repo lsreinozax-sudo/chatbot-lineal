@@ -1,0 +1,5 @@
+def reportes_formulario_filtros():
+    return "Tipo de reporte(El sistema presenta una lista con los siguientes parámetros: Órdenes de Pago, Emisiones de Pago y Movimientos Bancarios), Proveedor/Beneficiario(El sistema presenta una lista con los proveedores o beneficiarios previamente registrados), Estatus(El sistema presenta una lista con las opciones En proceso, Aprobado(a), Anulado(a)), El switch Todos el cual permite generar todos los reportes, Fecha inicial, Fecha Final, Y por último presenta la opción “Generar reporte”."
+
+def reportes_estructura_pdf():
+    return "Logo o Banner de la institución, Título del reporte y código QR, Expresado en, Institución, Año Fiscal, Seguidamente el sistema muestra una tabla con las siguientes columnas: Fecha, Código, Nro Documento de origen, Proveedor / Beneficiario, Concepto / Observación, Estatus, Monto"
