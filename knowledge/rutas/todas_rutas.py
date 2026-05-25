@@ -30,6 +30,13 @@ from knowledge.rutas.bien_finanzas.Conf_Finanzas.mapeo_conf_finanzas import ROUT
 from knowledge.rutas.bien_finanzas.Finanzas_Banco.mapeo_finanzas_banco import ROUTES as FINANZAS_BANCO_ROUTES
 from knowledge.rutas.bien_finanzas.Finanzas_Reporte.mapeo_finanzas_reporte import ROUTES as FINANZAS_REPORTE_ROUTES
 from knowledge.rutas.bien_finanzas.Gestion_Pagos.mapeo_gestion_pagos import ROUTES as GESTION_PAGOS_ROUTES
+from knowledge.rutas.seccion_registros_nomina_th.mapeo_talento_humano_registros_nomina import ROUTES as REGISTROS_NOMINA_ROUTES
+from knowledge.rutas.ajustes_tablas_salariales_th.mapeo_talento_humano_ajustes_tablas_salariales import ROUTES as AJUSTES_TABLAS_SALARIALES_ROUTES
+from knowledge.rutas.ari_txt_hoja_tiempo_th.Pendientes.mapeo_pendientes import ROUTES as PENDIENTES_ROUTES
+from knowledge.rutas.ari_txt_hoja_tiempo_th.Registros_Ari.mapeo_registros_ari import ROUTES as REGISTRO_ARI_ROUTES
+from knowledge.rutas.ari_txt_hoja_tiempo_th.Hoja_Tiempo.mapeo_hoja_tiempo import ROUTES as HOJA_TIEMPO_ROUTES
+from knowledge.rutas.ari_txt_hoja_tiempo_th.Archivo_Txt.mapeo_txt import ROUTES as ARCHIVO_TXT_ROUTES
+from knowledge.rutas.ari_txt_hoja_tiempo_th.Periodo_Activo.mapeo_periodo_activo import ROUTES as PERIODO_ACTIVO_ROUTES
 
 # Combinar TODAS las rutas
 ALL_ROUTES = (
@@ -58,5 +65,12 @@ ALL_ROUTES = (
     CONF_FINANZAS_ROUTES +
     FINANZAS_BANCO_ROUTES +
     FINANZAS_REPORTE_ROUTES +
-    GESTION_PAGOS_ROUTES
+    GESTION_PAGOS_ROUTES +
+    REGISTROS_NOMINA_ROUTES +
+    AJUSTES_TABLAS_SALARIALES_ROUTES +
+    PENDIENTES_ROUTES +
+    REGISTRO_ARI_ROUTES +
+    HOJA_TIEMPO_ROUTES +
+    ARCHIVO_TXT_ROUTES +
+    PERIODO_ACTIVO_ROUTES
 )
