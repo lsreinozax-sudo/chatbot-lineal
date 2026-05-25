@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class ChatbotController extends Controller
 {
-    private $chatbotApiUrl = 'http://chatbot-api:8000';
+    private $chatbotApiUrl = 'http://host.docker.internal:8000';
 
     public function index()
     {
