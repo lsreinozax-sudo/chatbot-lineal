@@ -40,6 +40,12 @@ from knowledge.rutas.talento_humano.ari_txt_hoja_tiempo_th.Periodo_Activo.mapeo_
 from knowledge.rutas.talento_humano.Seccion_Solicitudes.mapeo_SS import ROUTES as TALENTO_SOLICITUDES
 from knowledge.rutas.talento_humano.Reportes.mapeo_reportes import ROUTES as TALENTO_REPORTES
 from knowledge.rutas.talento_humano.Expediente.mapeo_expediente import ROUTES as TALENTO_EXPEDIENTE
+from knowledge.rutas.presupuesto.Conf_Presupuesto.mapeo_conf_presupuesto import ROUTES as CONF_PRESUPUESTO
+from knowledge.rutas.presupuesto.Ejecucion_y_Disponibilidad.mapeo_ejecucion_y_disponibilidad import ROUTES as EJECUCION_Y_DISPONIBILIDAD
+from knowledge.rutas.presupuesto.Formulacion_Presupuesto.mapeo_formulario_presupuesto import ROUTES as FORMULARIO_PRESUPUESTO
+from knowledge.rutas.presupuesto.Modificaciones.mapeo_modificaciones import ROUTES as MODIFICACIONES
+from knowledge.rutas.presupuesto.Reportes_Presupuesto.mapeo_reportes import ROUTES as REPORTES_PRESUPUESTO
+
 
 
 # Combinar TODAS las rutas
@@ -79,5 +85,10 @@ ALL_ROUTES = (
     PERIODO_ACTIVO_ROUTES +
     TALENTO_SOLICITUDES +
     TALENTO_REPORTES +
-    TALENTO_EXPEDIENTE
+    TALENTO_EXPEDIENTE +
+    CONF_PRESUPUESTO +
+    EJECUCION_Y_DISPONIBILIDAD +
+    FORMULARIO_PRESUPUESTO +
+    MODIFICACIONES +
+    REPORTES_PRESUPUESTO
 )
