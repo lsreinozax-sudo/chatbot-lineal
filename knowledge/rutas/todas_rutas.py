@@ -39,6 +39,7 @@ from knowledge.rutas.talento_humano.ari_txt_hoja_tiempo_th.Archivo_Txt.mapeo_txt
 from knowledge.rutas.talento_humano.ari_txt_hoja_tiempo_th.Periodo_Activo.mapeo_periodo_activo import ROUTES as PERIODO_ACTIVO_ROUTES
 from knowledge.rutas.talento_humano.Seccion_Solicitudes.mapeo_SS import ROUTES as TALENTO_SOLICITUDES
 from knowledge.rutas.talento_humano.Reportes.mapeo_reportes import ROUTES as TALENTO_REPORTES
+from knowledge.rutas.talento_humano.Expediente.mapeo_expediente import ROUTES as TALENTO_EXPEDIENTE
 
 
 # Combinar TODAS las rutas
@@ -77,5 +78,6 @@ ALL_ROUTES = (
     ARCHIVO_TXT_ROUTES +
     PERIODO_ACTIVO_ROUTES +
     TALENTO_SOLICITUDES +
-    TALENTO_REPORTES
+    TALENTO_REPORTES +
+    TALENTO_EXPEDIENTE
 )
